@@ -1,0 +1,17 @@
+
+## ZOMG SO SLOW
+
+This program is very close to the one I use to prune old versions of my
+libraries from CPAN.  It is **incredibly slow** after it gets going.
+
+Seriously.  Try it.
+
+NYTProf suggests that it's HTML::Forms' `selected` getting called about nine
+billion times or something.  Surely this is slowing down other people doing
+other stuff, right?
+
+Wanna make it faster?  Sure you do.
+
+I included the latest HTML-Form so you can edit it right there and try over and
+over — and run the tests as you change it to make sure it still works as it
+should.
