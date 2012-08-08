@@ -6,7 +6,7 @@ libraries from CPAN.  It is **incredibly slow** after it gets going.
 
 Seriously.  Try it.
 
-NYTProf suggests that it's HTML::Forms' `selected` getting called about nine
+NYTProf suggests that it's HTML::Form's `selected` getting called about nine
 billion times or something.  Surely this is slowing down other people doing
 other stuff, right?
 
